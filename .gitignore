@@ -1,0 +1,31 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and vector stores
+*.db
+*.sqlite3
+chroma_db/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Private/generated documents
+test_financial_report.pdf
+finvoice.docx
+
+# Empty unidentified file
+ghvbhn
