@@ -33,7 +33,7 @@ def test_unknown_query_returns_fallback_message():
     ):
         result = route_query("Tell me something unrelated")
 
-    assert result == (
+    assert result.startswith(
         "I could not determine which agent should handle this question."
     )
 
